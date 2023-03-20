@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="startMenu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./cards/karte.png">
+    <title>BlackJack</title></head>
+<body>
+    
+    <div class="start">
+        <p>START MENU</p>
+        <div class="butons">
+            <button id="single">1 player</button>
+            <br>
+            <button id="multy">2 player</button>
+            <br>
+            <div class="but">
+                <button id="introduction" onclick="opneModal1()">Instruction </button>
+                <button id="quit">Quit game </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-modal1">
+    	<button id="closeModal" onclick="closeModal1()" style="color: black;">X</button>
+        <p>Blackjack is usually played at a table of 2-7 players and uses one to eight 52-card decks. All number cards (2-10) <br> score the value indicated on them. The face cards (Jack, Queen, King) score 10 points and Ace can either be treated as 1 or 11. <br><br>
+
+            At the beginning of each round, all players place their bets in their betting positions - also known as ‘boxes’. <br> After the bets have been placed, all players are dealt two cards face-up in front of their respective betting positions. The dealer <br> receives two cards, one face-up and another face-down. <br><br>
+            
+            Starting to the left of the dealer, each player is given a chance to draw more cards. The players can either ‘hit’ or <br> ‘stand’. If the player calls out ‘HIT’, they are given an extra card. They can then either call out ‘HIT’ again, or ‘STAND’ <br> if they do not wish to draw any more cards. The player can ‘HIT’ as many times as they wish, but have to aim not to ‘bust’ (exceed a total of 21). <br><br>    
+            
+            If the player busts, they immediately lose their bet. <br><br>
+            
+            After each player has played and either stood or busted, the dealer takes their turn. They can, again, either ‘HIT’ or <br> ‘STAND’. If the dealer’s hand exceeds 21, all players who didn't bust win immediately - their bet is returned along with <br> a matching amount from the dealer's bank. <br><br>
+            
+            If the dealer reaches a valid hand, the cards are totalled and each player’s hand is compared to the dealer’s. If the <br> player scored higher than the dealer, they win. If the player ties with the dealer, the original bet is returned to the <br> player. Otherwise, the player loses their bet.<br><br>
+            
+            A perfect hand combines an ace with a 10, Jack, Queen or King and is known as a ‘Blackjack’</p>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="startMenu.js"></script>
+</body>
+</html>
