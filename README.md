@@ -1,1 +1,2 @@
-<h1> <a href"https://toosic.github.io/BlackJack/">BlackJack</a></h1>
+<h1> <a href"https://toosic.github.io/BlackJack/">BlackJack</h1>
+<a href"https://toosic.github.io/BlackJack/">Igraj igru</a>
